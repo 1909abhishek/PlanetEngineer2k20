@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/astha"
+    >
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:fitsSystemWindows="true"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/text3"
+            android:text="Welcome to our Planet"
+            android:gravity="center"
+
+            android:textSize="36dp"
+            />
+
+
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/text3"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/v_flipper"/>
+        <ImageButton
+            android:id="@+id/imgbtn1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/events"
+
+            android:layout_below="@+id/v_flipper"
+            />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/mer"
+            android:id="@+id/imgbtn2"
+            android:layout_below="@+id/imgbtn1"
+
+            />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/ceb"
+            android:id="@+id/imgbtn3"
+            android:layout_below="@+id/imgbtn2"
+            />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

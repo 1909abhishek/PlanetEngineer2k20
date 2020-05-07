@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lnct.planetengineer2k20">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/neko2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Planetteam2020"></activity>
+        <activity android:name=".Slingshotrule" />
+        <activity android:name=".Newevent" />
+        <activity android:name=".RegisterNew" />
+        <activity android:name=".Tugwarrule" />
+        <activity android:name=".Youthrule" />
+        <activity android:name=".Nailrule" />
+        <activity android:name=".Moherangrule" />
+        <activity android:name=".Mehendirule" />
+        <activity android:name=".Rangshrijanrule" />
+        <activity android:name=".Splashrule" />
+        <activity android:name=".Paperrule" />
+        <activity android:name=".Extempore" />
+        <activity android:name=".Generalrule" />
+        <activity android:name=".Surrule" />
+        <activity android:name=".Snacksrule" />
+        <activity android:name=".Lncthaat" />
+        <activity android:name=".Kavisamelan" />
+        <activity android:name=".Welcomehogwart" />
+        <activity android:name=".Shakerule" />
+        <activity android:name=".Gameattire" />
+        <activity android:name=".Incric" />
+        <activity android:name=".Technicalrule" />
+        <activity android:name=".Grooverule" />
+        <activity android:name=".Lanrule" />
+        <activity android:name=".CodeRule" />
+        <activity android:name=".Admadrule" />
+        <activity android:name=".RuleE1" />
+        <activity android:name=".Rules" />
+        <activity android:name=".SportsEvent" />
+        <activity android:name=".StageEvent" />
+        <activity android:name=".MicEvent" />
+        <activity android:name=".TechnicalEvent" />
+        <activity android:name=".BrainEvent" />
+        <activity android:name=".FunEvent" />
+        <activity android:name=".FoodEvent" />
+        <activity android:name=".DanceEvent" />
+        <activity android:name=".ColorEvent" />
+        <activity android:name=".Developerzone" />
+        <activity android:name=".Givefeedback" />
+        <activity android:name=".Rateus" />
+        <activity android:name=".Visitwebsite" />
+        <activity android:name=".Emergencycontact" />
+        <activity android:name=".Aboutus" />
+        <activity android:name=".Events" />
+        <activity android:name=".Register" />
+        <activity
+            android:name=".PlanetEngineer"
+            android:label="@string/title_activity_planet_engineer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

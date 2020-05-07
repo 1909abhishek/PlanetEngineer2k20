@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:fitsSystemWindows="true">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/c"
+            android:id="@+id/imgbtn1"
+            android:layout_marginTop="10dp"
+            >
+        </ImageButton>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/cu"
+            android:id="@+id/imgbtn2"
+            android:layout_below="@id/imgbtn1"
+            android:layout_marginTop="20dp"
+            >
+
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/fos"
+            android:id="@+id/imgbtn3"
+            android:layout_below="@id/imgbtn2"
+            android:layout_marginTop="20dp"
+            >
+
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/fs"
+            android:id="@+id/imgbtn4"
+            android:layout_below="@id/imgbtn3"
+            android:layout_marginTop="20dp">
+
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/is"
+            android:id="@+id/imgbtn5"
+            android:layout_below="@id/imgbtn4"
+            android:layout_marginTop="20dp"
+            >
+
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/la"
+            android:id="@+id/imgbtn6"
+            android:layout_below="@id/imgbtn5"
+            android:layout_marginTop="20dp"
+            >
+
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/ms"
+            android:id="@+id/imgbtn7"
+            android:layout_below="@id/imgbtn6"
+            android:layout_marginTop="20dp"
+            >
+
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/sp"
+            android:id="@+id/imgbtn8"
+            android:layout_below="@id/imgbtn7"
+            android:layout_marginTop="20dp"
+            >
+
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/st"
+            android:id="@+id/imgbtn9"
+            android:layout_below="@id/imgbtn8"
+            android:layout_marginTop="20dp"
+            >
+
+
+        </ImageButton>
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

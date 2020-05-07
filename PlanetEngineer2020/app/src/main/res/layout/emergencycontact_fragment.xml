@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/emergencycontact"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.emergencycontact.EmergencycontactFragment">
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="406dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="566dp"
+        android:background="@drawable/astha"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="121dp"
+            android:layout_height="122dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/amitu" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="15dp"
+            android:gravity="left"
+            android:text="Dr.Amitbodh Upadhayay"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="50dp"
+            android:text="amitbodh2001@gmail.com"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+        <TextView
+
+            android:layout_width="172dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="85dp"
+            android:text="9752489333"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="406dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="43dp"
+        android:background="@drawable/astha"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2">
+
+        <ImageView
+            android:layout_width="121dp"
+            android:layout_height="122dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/vivek" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="15dp"
+            android:gravity="left"
+            android:text="Dr.Vivek Richariya"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="50dp"
+            android:text="vivekrich@gmail.com"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+        <TextView
+
+            android:layout_width="172dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="85dp"
+            android:text="9826856015"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="406dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="160dp"
+        android:background="@drawable/astha"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:layout_width="121dp"
+            android:layout_height="122dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/amit" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="15dp"
+            android:gravity="left"
+            android:text="Dr.Amit Shrivastava"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="50dp"
+            android:text="amitshri77@yahoo.com"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="172dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="85dp"
+            android:text="9826029451"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

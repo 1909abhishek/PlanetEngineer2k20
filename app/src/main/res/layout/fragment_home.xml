@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:fitsSystemWindows="true"
+        >
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="114dp"
+    android:text="WELCOME TO OUR PLANET"
+    android:textColor="#FFFFFF"
+    android:textSize="30dp"
+    android:id="@+id/t1"
+
+    android:gravity="center"></TextView>
+
+
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+
+            android:layout_centerHorizontal="true"
+            android:id="@+id/v_flipper"
+            android:layout_below="@id/t1"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/img1"
+            android:background="@drawable/poster1"
+            android:layout_below="@id/v_flipper"
+            android:layout_marginTop="10dp"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/reg4"
+            android:id="@+id/reg1"
+            android:layout_below="@id/img1"
+            android:layout_marginTop="10dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/events"
+            android:id="@+id/imgbtn1"
+            android:layout_below="@id/reg1"
+            android:layout_marginTop="10dp"
+            />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/celeb"
+            android:id="@+id/imgbtn2"
+            android:layout_below="@+id/imgbtn1"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_below="@+id/imgbtn2"
+            android:id="@+id/moti"
+            android:textSize="30dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:text="WORDS OF MOTIVATION"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/wom3"
+                android:id="@+id/im3"
+                android:layout_below="@+id/moti" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/log3"
+            android:id="@+id/venue"
+            android:layout_below="@id/im3" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/venue"
+            android:id="@+id/tw1"
+            android:textSize="20dp"
+            android:layout_marginLeft="40dp"
+            android:text="Developed by LNCT Hackathon Club"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/tw1"
+            android:textSize="15dp"
+            android:layout_marginLeft="150dp"
+            android:text="All Rights reserved"/>
+    </RelativeLayout>
+
+
+</ScrollView>

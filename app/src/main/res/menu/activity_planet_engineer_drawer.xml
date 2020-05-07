@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="Register"/>
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_color_lens_black_24dp"
+            android:title="Events"/>
+
+        <item
+            android:id="@+id/nav_rules"
+            android:icon="@drawable/ic_speaker_notes_black_24dp"
+            android:title="Rules"/>
+
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_import_contacts_black_24dp"
+            android:title="About Us"/>
+        <item
+            android:id="@+id/nav_emergencycontact"
+            android:icon="@drawable/ic_phone_black_24dp"
+            android:title="Emergency Contact"/>
+    </group>
+
+    <item android:title="Explore">
+        <menu>
+            <item
+                android:id="@+id/nav_visitwebsite"
+                android:icon="@drawable/ic_language_black_24dp"
+                android:title="Visit Website"/>
+            <item
+                android:id="@+id/nav_rateus"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="Rate Us"/>
+            <item
+                android:id="@+id/nav_givefeedback"
+                android:icon="@drawable/ic_announcement_black_24dp"
+                android:title="Give Feedback"/>
+            <item
+                android:id="@+id/nav_developerzone"
+                android:icon="@drawable/ic_build_black_24dp"
+                android:title="Developer Zone"/>
+            <item
+                android:id="@+id/nav_planetteam2020"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Team Planet Engineer 2020"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t1"
+            android:text="DEVELOPERS"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="#000000"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="#000000"
+            app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout2">
+
+            <ImageView
+                android:layout_width="121dp"
+                android:layout_height="122dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/ayu" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="15dp"
+                android:gravity="left"
+                android:text="Ayush Sharma"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="50dp"
+                android:text="ayush123adi@gmail.com"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:layout_width="172dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="85dp"
+                android:text="8120213680"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="#000000"
+            app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout2">
+
+            <ImageView
+                android:layout_width="121dp"
+                android:layout_height="122dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/adi" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="15dp"
+                android:gravity="left"
+                android:text="Aditya Jugade"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="50dp"
+                android:text="adityajugade20@gmail.com"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:layout_width="172dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="85dp"
+                android:text="6265333646"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="#000000"
+            app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout2">
+
+            <ImageView
+                android:layout_width="121dp"
+                android:layout_height="122dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/abhi" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="15dp"
+                android:gravity="left"
+                android:text="Abhishek Agrawal"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="50dp"
+                android:text="abhishekagrawal1909@gmail.com"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:layout_width="172dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="85dp"
+                android:text="8989487050"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="#000000"
+            app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout2">
+
+            <ImageView
+                android:layout_width="121dp"
+                android:layout_height="122dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/ast" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="15dp"
+                android:gravity="left"
+                android:text="Astha Paliwal"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="50dp"
+                android:text="asthapaliwal.035@gmail.com"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:layout_width="172dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="85dp"
+                android:text="9926400035"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="406dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="#000000"
+            app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout2">
+
+            <ImageView
+                android:layout_width="121dp"
+                android:layout_height="122dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/sid" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="15dp"
+                android:gravity="left"
+                android:text="Siddharth Shroti"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="50dp"
+                android:text="5656bakaneko@gmail.com"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:layout_width="172dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="85dp"
+                android:text="7748066840"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t2"
+            android:text="MAJOR CONTRIBUTOR"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="#000000"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="#000000"
+            app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout2">
+
+            <ImageView
+                android:layout_width="121dp"
+                android:layout_height="122dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/vivek" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="15dp"
+                android:gravity="left"
+                android:text="Dr.Vivek Richhariya"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="50dp"
+                android:text="vivekrich@gmail.com"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:layout_width="172dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="85dp"
+                android:text="9826856015"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+        </FrameLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

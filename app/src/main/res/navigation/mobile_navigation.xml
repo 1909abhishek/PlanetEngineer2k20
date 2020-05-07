@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.lnct.planetengineer2k20.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.lnct.planetengineer2k20.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.lnct.planetengineer2k20.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.lnct.planetengineer2k20.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.lnct.planetengineer2k20.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.lnct.planetengineer2k20.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+
+    <fragment
+        android:id="@+id/nav_register"
+        android:name="com.lnct.planetengineer2k20.ui.register.RegisterFragment"
+        android:label="Register"
+        tools:layout="@layout/register_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_events"
+        android:name="com.lnct.planetengineer2k20.ui.events.EventsFragment"
+        android:label="Events"
+        tools:layout="@layout/events_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_rules"
+        android:name="com.lnct.planetengineer2k20.ui.rules.RulesFragment"
+        android:label="Rules"
+        tools:layout="@layout/rules_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_aboutus"
+        android:name="com.lnct.planetengineer2k20.ui.aboutus.AboutusFragment"
+        android:label="About Us"
+        tools:layout="@layout/aboutus_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_emergencycontact"
+        android:name="com.lnct.planetengineer2k20.ui.emergencycontact.EmergencycontactFragment"
+        android:label="Emergency Contact"
+        tools:layout="@layout/emergencycontact_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_visitwebsite"
+        android:name="com.lnct.planetengineer2k20.ui.visitwebsite.VisitwebsiteFragment"
+        android:label="Visit Website"
+        tools:layout="@layout/visitwebsite_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_rateus"
+        android:name="com.lnct.planetengineer2k20.ui.rateus.RateusFragment"
+        android:label="Rate Us"
+        tools:layout="@layout/rateus_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_givefeedback"
+        android:name="com.lnct.planetengineer2k20.ui.givefeedback.GivefeedbackFragment"
+        android:label="Give Feedback"
+        tools:layout="@layout/givefeedback_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_developerzone"
+        android:name="com.lnct.planetengineer2k20.ui.developerzone.DeveloperzoneFragment"
+        android:label="Developer Zone"
+        tools:layout="@layout/developerzone_fragment"/>
+    <fragment
+        android:id="@+id/nav_planetteam2020"
+        android:name="com.lnct.planetengineer2k20.ui.planetteam2020.Planetteam2020Fragment"
+        android:label="Team Planet Engineer 2020"
+        tools:layout="@layout/planetteam2020_fragment"/>
+</navigation>
